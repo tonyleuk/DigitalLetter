@@ -39,7 +39,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
       <motion.div 
         transition={transition}
         initial={{scale: 0}}
-        animate={{ y: ['0vh','-25vh',0], scale: [0,0.4,1], "z-index": [21,21,21,21] }}
+        animate={{ y: ['0vh','-25vh',0], scale: [0,0.4,1], zIndex: [21,21,21,21] }}
         className="absolute inset-0 z-10 flex justify-center items-center"
       >
         <div className="relative">

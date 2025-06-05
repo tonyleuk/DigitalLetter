@@ -4,10 +4,12 @@ import Image from "next/image";
 import { motion } from 'motion/react';
 
 import Letter from './letter';
+import { Suspense } from "react";
 
 export default function Home() {
   return (
     <>
+      <Suspense>
       <main className="flex justify-center">  
         <motion.div
         initial={{ y: 50 }}
@@ -22,6 +24,7 @@ export default function Home() {
           />
         </motion.div>
       </main>
+      </Suspense>
     </>
   );
 }
