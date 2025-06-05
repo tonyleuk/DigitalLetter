@@ -28,7 +28,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
       
       {/* --- Layer 1: Background Image --- */}
       <Image
-        src="/images/lettermagic.png"
+        src="/DigitalLetter/images/lettermagic.png"
         alt="Background Image"
         fill
         className="object-cover z-10"
@@ -45,7 +45,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
       >
         <div className="relative">
             <Image
-            src="${basePath}/images/letter.jpg"
+            src="/DigitalLetter/images/letter.jpg"
             alt="Middle Image"
             width={400}
             height={400}
@@ -62,7 +62,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
 
       {/* --- Layer 3: Video Overlay --- */}
       <video
-        src="/images/letter.webm"
+        src="/DigitalLetter/images/letter.webm"
         autoPlay
         muted
         playsInline
