@@ -44,7 +44,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
       >
         <div className="relative">
             <Image
-            src="/images/letter.jpg"
+            src="${basePath}/images/letter.jpg"
             alt="Middle Image"
             width={400}
             height={400}
