@@ -51,7 +51,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
             className="rounded-lg shadow-lg"
             />
             <div className="shadow-lgw-1/2 mx-auto absolute inset-0 z-10 flex flex-col items-center justify-center text-center gap-4 px-4"> 
-                <h1 className="text-black">Hello {name}, join us on </h1>
+                <h1 className="text-black">Hello {name}, join us on</h1>
                 <h2 className="text-black">May 9th 2026 <br />London</h2>
                 <h3 className="text-black">Kathy & Leon</h3>
             </div>
