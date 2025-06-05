@@ -1,11 +1,10 @@
 /**
  * @type {import('next').NextConfig}
  */
-/* const isProd = process.env.NODE_ENV === 'production'; */
+//const isProd = process.env.NODE_ENV = 'production';
 
 const nextConfig = {
-  /* basePath: isProd ? '/DigitalLetter' : '', 
-  assetPrefix: isProd ? '/DigitalLetter' : '',  */
+  basePath: '/DigitalLetter', /*  isProd ? '/DigitalLetter' : '', */
   output: 'export',
   distDir: 'dist',
   images: {
