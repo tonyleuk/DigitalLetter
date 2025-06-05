@@ -33,6 +33,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
         fill
         className="object-cover z-10"
         priority
+        unoptimized
       />
 
       {/* --- Layer 2: Image2 + Text Group --- */}
@@ -49,6 +50,7 @@ const ImageWithText: React.FC<ImageWithTextProps> = ({ src, alt, title, descript
             width={400}
             height={400}
             className="rounded-lg shadow-lg"
+            unoptimized
             />
             <div className="shadow-lgw-1/2 mx-auto absolute inset-0 z-10 flex flex-col items-center justify-center text-center gap-4 px-4"> 
                 <h1 className="text-black">Hello {name}, join us on</h1>
